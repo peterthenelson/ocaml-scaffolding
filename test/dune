@@ -1,0 +1,4 @@
+(library (name test)
+ (libraries base lib)
+ (inline_tests)
+ (preprocess (pps ppx_jane)))
